@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"galassia:powernamehere"
+	],
+	"icon": "minecraft:wither_skeleton_skull",
+	"order": 10,
+	"impact": 1,
+	"name": "Wither Skeleton",
+	"description": "Fallen travellers forever bound as wardens of the horrid fortresses of the nether."
+}

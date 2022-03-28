@@ -1,0 +1,1 @@
+tellraw @a {"text": "Galassia Origins has Loaded", "color": "#FF7F50"}

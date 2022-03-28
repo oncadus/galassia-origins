@@ -1,0 +1,38 @@
+{
+    "type": "origins:multiple",
+    "name": "Charred and Boney",
+    "description": "You are--what chefs call--well done. Your flesh no longer protects you, and your bones have been scorched.",
+
+    "color":
+    {
+        "type": "origins:model_color",
+        "red": 0.3490196078431373,
+        "blue": 0.3490196078431373,
+        "green": 0.3490196078431373
+    },
+    "height":
+    {
+        "type": "origins:action_on_callback",
+        "entity_action_chosen":
+        {
+            "type": "origins:and",
+            "actions":
+            [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehuki:height 0.65"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehuki:width 0.65"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale persist set true"
+                }
+            ]
+        }
+
+        
+    }
+}
